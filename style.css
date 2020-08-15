@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: url(https://news.bitcoin.com/wp-content/uploads/2016/11/Blockchain-Startup-DECENT-Launches-Web-Prototype.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button {
+    padding: 15px;
+    outline: none;
+    background: none;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: "Righteous", cursive;
+    padding-bottom: 5%;
+    font-size: 50px;
+}
+
+#btn-add {
+    border-right: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#btn-minus:hover,
+#btn-add:hover {
+    color: white;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+#btn-minus {
+    border-left: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#input {
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 15px;
+    outline: none;
+    font-size: 25px;
+    width: 15%;
+    background: none;
+}
+
+.challenge {
+    justify-content: center;
+    z-index: 5;
+    display: flex;
+}
